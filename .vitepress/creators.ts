@@ -23,7 +23,7 @@ export const creators: Creator[] = [
     name: '絢香猫',
     avatar: '',
     username: 'nekomeowww',
-    title: 'Nólëbase 原始创作者',
+    title: '基础设施原始创作者',
     desc: '开发者，专注于基础设施维护，数据分析，后端、DevOps 开发',
     links: [
       { type: 'github', icon: 'github', link: 'https://github.com/nekomeowww' },
@@ -36,7 +36,7 @@ export const creators: Creator[] = [
     name: '絢香音',
     avatar: '',
     username: 'LittleSound',
-    title: 'Nólëbase 原始创作者',
+    title: '基础设施原始创作者',
     desc: '开源开发者，专注于前端，以及前端相关工具库和工具链开发',
     links: [
       { type: 'github', icon: 'github', link: 'https://github.com/LittleSound' },
@@ -44,6 +44,19 @@ export const creators: Creator[] = [
     ],
     nameAliases: ['LittleSound', '绚香音', '絢香音', 'Rizumu Oikawa', 'Rizumu Ayaka', 'Ayaka Rizumu', 'Rizumu'],
     emailAliases: ['rizumu@ayaka.moe', 'rizumu@oqo.moe'],
+  },
+  {
+    name: '璃殊',
+    avatar: '',
+    username: 'mlishu',
+    title: '网站维护和内容创作者',
+    desc: '内容创作者，专注于前端，同时注重内容的维护',
+    links: [
+      { type: 'github', icon: 'github', link: 'https://github.com/lishu620' },
+      { type: 'twitter', icon: 'twitter', link: '' },
+    ],
+    nameAliases: ['LittleSound', '璃殊', 'mlishu', 'lishu'],
+    emailAliases: ['mlishu@163.com', 'mlishu@mlishu.top'],
   },
 ].map<Creator>((c) => {
   c.avatar = c.avatar || getAvatarUrl(c.username)

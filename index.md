@@ -6,9 +6,9 @@ title: mlishu
 titleTemplate: 记录回忆，知识和畅想的地方
 
 hero:
-  name: g~Nj$3J2^
+  name: 璃殊
   text: 记录回忆，知识和畅想的地方
-  tagline: 以 mlishu 为名，读作 nole-base，取自意为「知识」的昆雅语 nólë 和意为「基础」的英文 base，即「知识库」
+  tagline: 在逐步构建下，相信会获得一个美好的回忆
   image:
     src: /logo.svg
     alt: Vitest
