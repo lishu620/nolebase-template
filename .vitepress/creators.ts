@@ -48,7 +48,7 @@ export const creators: Creator[] = [
   {
     name: '璃殊',
     avatar: '',
-    username: 'mlishu',
+    username: 'lishu620',
     title: '网站维护和内容创作者',
     desc: '内容创作者，专注于前端，同时注重内容的维护',
     links: [
