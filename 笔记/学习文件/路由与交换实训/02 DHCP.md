@@ -10,7 +10,7 @@ tags:
 
 ## 拓扑图
 
-![[Pasted image 20240715170416.png]]
+![[public/img/luyou-change/Pasted image 20240715170416.png]]
 ## 路由表
 
 
@@ -39,4 +39,4 @@ dhcp select interface
 ```
 ### 4.验证DHCP功能
 
-![[Pasted image 20240715171037.png]]
+![[public/img/luyou-change/Pasted image 20240715171037.png]]
