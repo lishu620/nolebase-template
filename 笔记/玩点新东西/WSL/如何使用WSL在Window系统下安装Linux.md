@@ -10,16 +10,11 @@ tags:
 ## 安装 WSL 命令
 
 ![[安装WSL#^a063a0]]
-![[安装WSL#^0abfd2]]
-
-此命令将启用运行 WSL 并安装 Linux 的 Ubuntu 发行版所需的功能。 （[可以更改此默认发行版](https://learn.microsoft.com/zh-cn/windows/wsl/basic-commands#install)）。
-
-如果你运行的是旧版，或只是不想使用 install 命令并希望获得分步指引，请参阅[旧版 WSL 手动安装步骤](https://learn.microsoft.com/zh-cn/windows/wsl/install-manual)。
-
-首次启动新安装的 Linux 发行版时，将打开一个控制台窗口，要求你等待将文件解压缩并存储到计算机上。 未来的所有启动时间应不到一秒。
-
-> [!warning] 警告
-> 仅当根本没有安装 WSL 时，上述命令才有效。 如果运行 `wsl --install` 并查看 WSL 帮助文本，请尝试运行 `wsl --list --online` 以查看可用发行版列表并运行 `wsl --install -d <DistroName>` 以安装一个发行版。 若要卸载 WSL，请参阅[卸载旧版 WSL](https://learn.microsoft.com/zh-cn/windows/wsl/troubleshooting#uninstall-legacy-version-of-wsl) 或[注销或卸载 Linux 发行版](https://learn.microsoft.com/zh-cn/windows/wsl/basic-commands#unregister-or-uninstall-a-linux-distribution)。
+![[安装WSL#^c0a6d2]]
+![[安装WSL#^1390e8]]
+![[安装WSL#^cf96b9]]
+![[安装WSL#^dcc732]]
+![[安装WSL#^dad44d]]
 ## 更改默认安装的 Linux 发行版
 
 默认情况下，安装的 Linux 分发版为 Ubuntu。 可以使用 `-d` 标志进行更改。
