@@ -8,6 +8,7 @@ tags:
 
 必须运行 Windows 10 版本 2004 及更高版本（内部版本 19041 及更高版本）或 Windows 11 才能使用以下命令。 如果使用的是更早的版本，请参阅[手动安装页](https://learn.microsoft.com/zh-cn/windows/wsl/install-manual)。
 ## 安装 WSL 命令
+
 ![[安装WSL#^a063a0]]
 ![[安装WSL#^0abfd2]]
 
