@@ -8,7 +8,7 @@ titleTemplate: 知识 Knowledge    回忆 Memory
 hero:
   name: 璃殊
   text: 知识 Knowledge    回忆 Memory
-  tagline: 在逐步构建下，相信会获得一个美好的回忆
+  tagline: 知识逐渐累积 记忆逐渐清晰
   image:
     src: /logo.svg
     alt: Vitest
