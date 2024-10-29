@@ -22,6 +22,9 @@ hero:
     - theme: alt
       text: GitHub 上浏览
       link: https://github.com/nolebase/nolebase
+    - theme: alt
+      text: MySQL学习站点
+      link: https://mysql.mlishu.top/#/learn
 
 features:
   - title: 多样的主题和内容
