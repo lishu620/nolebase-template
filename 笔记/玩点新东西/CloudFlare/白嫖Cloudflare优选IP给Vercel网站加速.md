@@ -1,21 +1,18 @@
-
-  
-
 > [!提示]
 > 本教程参考以下内容
 > [CloudFlare公共优选Cname域名地址](https://www.baota.me/post-411.html)
 > [CloudFlare SAAS(cname) 接入网站域名](https://www.baota.me/post-413.html)
 > [白嫖Cloudflare最优CDN给自己网站加速，尽情享受CF的免费服务](https://www.bilibili.com/video/av1306011539/)
-## 准备[​](https://blog.mnxy.eu.org/posts/tech/cdn#%E5%87%86%E5%A4%87)
+## 准备
 
 - 一个`Cloudflare`账号并绑定支付渠道（没有信用卡的，可使用国区PayPal绑定银联）
 - 两个托管在`Cloudflare`的域名，或一个托管在`Cloudflare`另一个托管在国内DNS服务商
 
-> 注意：必须是两个域名，不能是顶级域分出的子域名
+> 注意：必须是两个二级域名，不能是二级域分出的子域名
 
-## 配置[​](https://blog.mnxy.eu.org/posts/tech/cdn#%E9%85%8D%E7%BD%AE)
+## 配置
 
-### 回源域名创建回退源地址[​](https://blog.mnxy.eu.org/posts/tech/cdn#%E5%9B%9E%E6%BA%90%E5%9F%9F%E5%90%8D%E5%88%9B%E5%BB%BA%E5%9B%9E%E9%80%80%E6%BA%90%E5%9C%B0%E5%9D%80)
+### 回源域名创建回退源地址
 
 > 以123.com为例
 
