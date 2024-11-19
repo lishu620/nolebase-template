@@ -54,7 +54,7 @@ apt install -y chrony
 ### 使用阿里云NTP服务器配置
 链接：https://developer.aliyun.com/mirror/NTP?spm=a2c6h.13651102.0.0.59021b11IIu5Fx
 删除全部内容，输入
-```bash
+```vi
 server ntp.aliyun.com iburst
 stratumweight 0
 driftfile /var/lib/chrony/drift
@@ -99,10 +99,24 @@ MS Name/IP address        Stratum Poll Reach LastRx Last sample         �
 	NTP service: active
 	RTC in local TZ: no
 ```
+### 搭建本地NTP服务器
+
+> [!NOTE] 提示
+> 在这里，服务端向阿里云同步服务器，向内部设备提供NTP服务器
+
+在`/etc/chrony/chrony.conf`文件最后一行加上
+```vi
+allow 0.0.0.0/0
+```
+表示对全部IP可访问
+```bash
+ systemctl restart chrony
+```
+重启服务开始测试
 
 ---
 
 > [!NOTE] 提示
-> 文章摘录于：[chrony服务器（linux）](https://blog.csdn.net/ymtianyu/article/details/105973953)
+> 文章摘录于：[chrony服务器（linux）](https://blog.csdn.net/nldhm/article/details/143630191)
 
 
