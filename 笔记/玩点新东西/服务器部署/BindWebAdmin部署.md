@@ -1,0 +1,1 @@
+https://bind-webadmin.com/docs/docs/sider/guides/fast/vm
